@@ -1,0 +1,16 @@
+{
+  "name": "avengers-claude-skills",
+  "owner": {
+    "name": "Avengers-au",
+    "url": "https://github.com/Avengers-au"
+  },
+  "description": "Open-source Claude Code skills from Avengers-au",
+  "homepage": "https://github.com/Avengers-au/claude-skills",
+  "plugins": [
+    {
+      "name": "share-gist",
+      "source": "./plugins/share-gist",
+      "description": "Create secret GitHub gists from files and return a shareable URL — for sharing docs outside your org"
+    }
+  ]
+}
