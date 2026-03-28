@@ -51,6 +51,11 @@
       "name": "onsite-loop-playbook",
       "source": "./plugins/onsite-loop-playbook",
       "description": "Generate a personalised onsite/loop preparation playbook with system design, coding, domain-specific rounds, debrief prediction, energy management, and post-onsite tactics"
+    },
+    {
+      "name": "salary-negotiation-playbook",
+      "source": "./plugins/salary-negotiation-playbook",
+      "description": "Generate a personalised salary negotiation strategy with live market research from Levels.fyi, Glassdoor, Hays, salary-seeker (SEEK.com.au), company-specific patterns, and AU tax analysis"
     }
   ]
 }

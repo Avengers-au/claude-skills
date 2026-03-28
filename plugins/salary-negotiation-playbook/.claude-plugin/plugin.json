@@ -1,0 +1,13 @@
+{
+  "name": "salary-negotiation-playbook",
+  "description": "Generate a personalised salary negotiation strategy with live market research from Levels.fyi, Glassdoor, Hays, salary-seeker (SEEK.com.au), company-specific patterns, and AU tax analysis",
+  "version": "1.0.0",
+  "author": {
+    "name": "Avengers-au",
+    "url": "https://github.com/Avengers-au"
+  },
+  "homepage": "https://github.com/Avengers-au/claude-skills",
+  "repository": "https://github.com/Avengers-au/claude-skills",
+  "license": "MIT",
+  "keywords": ["salary", "negotiation", "compensation", "equity", "RSU", "career", "offer"]
+}

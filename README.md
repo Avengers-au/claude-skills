@@ -278,6 +278,7 @@ plugins/
 ├── star-story-generator/               ← STAR/CARL story generation
 ├── behavioural-interview-playbook/    ← Behavioural round prep (live research)
 ├── onsite-loop-playbook/             ← Onsite/loop technical prep
+├── salary-negotiation-playbook/      ← Salary & comp negotiation
 └── your-plugin/                       ← Add new plugins here
 ```
 
