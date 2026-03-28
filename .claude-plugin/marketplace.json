@@ -36,6 +36,11 @@
       "name": "resume-linkedin-optimiser",
       "source": "./plugins/resume-linkedin-optimiser",
       "description": "Generate ATS-optimised, story-seeded resumes and LinkedIn profile recommendations from career data and target job descriptions"
+    },
+    {
+      "name": "star-story-generator",
+      "source": "./plugins/star-story-generator",
+      "description": "Transform career data into company-specific CARL stories mapped to competency frameworks (Amazon LPs, Meta dimensions, Google attributes) with scope calibration and coverage analysis"
     }
   ]
 }

@@ -1,0 +1,13 @@
+{
+  "name": "star-story-generator",
+  "description": "Transform career data into company-specific CARL stories mapped to competency frameworks (Amazon LPs, Meta dimensions, Google attributes) with scope calibration and coverage analysis",
+  "version": "1.0.0",
+  "author": {
+    "name": "Avengers-au",
+    "url": "https://github.com/Avengers-au"
+  },
+  "homepage": "https://github.com/Avengers-au/claude-skills",
+  "repository": "https://github.com/Avengers-au/claude-skills",
+  "license": "MIT",
+  "keywords": ["interview", "STAR", "CARL", "behavioral", "stories", "career", "Amazon-LP"]
+}

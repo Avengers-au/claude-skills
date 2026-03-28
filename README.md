@@ -175,6 +175,33 @@ Generate a tailored, ATS-optimised resume and LinkedIn profile recommendations f
 
 **Includes:** A bundled reference guide covering ATS reality vs myths (2025 survey data), action verbs by competency, LinkedIn algorithm mechanics, and the story seeding technique.
 
+### `star-story-generator` — Company-specific CARL story generation
+
+Transform your career knowledge base into company-specific, level-appropriate CARL stories. Maps your achievements to the target company's competency framework, generates rehearsal-ready answers with scope calibration, and produces a coverage matrix showing gaps.
+
+**Install:**
+```
+/plugin install star-story-generator@avengers-claude-skills
+```
+
+**Use:**
+```
+/star-story-generator:generate Amazon Senior
+/star-story-generator:generate Meta IC5
+/star-story-generator:generate Anthropic "Staff Security Engineer"
+```
+
+**What it does:**
+- Reads your career knowledge base and maps stories to the target company's framework (Amazon 16 LPs, Meta 8 dimensions, Google Googleyness + Leadership, Stripe values, Netflix F&R, Anthropic safety alignment)
+- Generates full CARL answers (Context/Actions/Results/Learnings) with company-specific framing
+- Calibrates scope signalling to the target level (L3→individual task, L5→team project, L6→cross-team initiative)
+- Produces a coverage matrix showing which competencies are covered and which have gaps
+- Includes follow-up prep for each story ("Why?", "What else?", "What would you change?")
+- Shows how to repurpose each story for 2-3 different competency questions
+- Outputs local markdown file with all stories and the coverage report
+
+**Includes:** A bundled reference guide covering CARL framework, Decode-Select-Deliver methodology, 15 competency clusters, company competency mappings, scope ladder, story repurposing, and naturalness techniques.
+
 ---
 
 ## Structure
@@ -189,6 +216,7 @@ plugins/
 ├── tech-screen-playbook/       ← Technical phone screen prep (category-aware)
 ├── career-kb-builder/          ← Career knowledge base builder
 ├── resume-linkedin-optimiser/  ← Resume & LinkedIn optimisation
+├── star-story-generator/       ← STAR/CARL story generation
 └── your-plugin/                ← Add new plugins here
 ```
 
