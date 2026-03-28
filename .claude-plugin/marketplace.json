@@ -11,6 +11,11 @@
       "name": "share-gist",
       "source": "./plugins/share-gist",
       "description": "Create secret GitHub gists from files and return a shareable URL — for sharing docs outside your org"
+    },
+    {
+      "name": "recruiter-playbook",
+      "source": "./plugins/recruiter-playbook",
+      "description": "Generate a personalised, company-specific recruiter screening playbook with live research, tailored scripts, and social engineering angles"
     }
   ]
 }
