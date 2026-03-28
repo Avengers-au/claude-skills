@@ -350,6 +350,7 @@ git push origin main
 | `recruiter-playbook` | `prep` | Generate company-specific recruiter screening playbooks with live research | 1.0.0 |
 | `hm-screen-playbook` | `prep` | Generate company-specific hiring manager screening playbooks with CARL templates | 1.0.0 |
 | `tech-screen-playbook` | `prep` | Generate category-aware technical phone screen playbooks (10 job categories) | 1.0.0 |
+| `career-kb-builder` | `build` | Conversationally extract career data into a structured knowledge base | 1.0.0 |
 
 ---
 

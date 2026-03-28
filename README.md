@@ -125,6 +125,30 @@ Generate a personalised, category-aware technical phone screen playbook. Covers 
 
 **Requirements:** [`gh` CLI](https://cli.github.com) installed and authenticated (`gh auth login`)
 
+### `career-kb-builder` — Build your career knowledge base through conversation
+
+A conversational career coach that interviews you to extract, structure, and store your career achievements as a structured knowledge base file. Surfaces hidden achievements, helps quantify impact, and maps stories to interview competencies. The output feeds into all other interview prep plugins.
+
+**Install:**
+```
+/plugin install career-kb-builder@avengers-claude-skills
+```
+
+**Use:**
+```
+/career-kb-builder:build
+```
+
+**What it does:**
+- Walks through your career chronologically, then deep-dives into key stories
+- Uses professional coaching techniques to surface achievements you'd overlook
+- Helps quantify impact using 6 estimation techniques (range, frequency multiplication, cost translation, scale indicators, comparison anchors, proxy metrics)
+- Structures output with competency tags mapped to Amazon LPs, Meta dimensions, Google attributes, etc.
+- Generates compressed resume bullets and LinkedIn versions for each story
+- Outputs a local structured markdown file — your personal career knowledge base
+
+**Includes:** A bundled reference guide covering the extraction schema, probing techniques, quantification methods, and quality checklist.
+
 ---
 
 ## Structure
@@ -137,6 +161,7 @@ plugins/
 ├── recruiter-playbook/    ← Recruiter screen prep
 ├── hm-screen-playbook/    ← Hiring manager screen prep
 ├── tech-screen-playbook/  ← Technical phone screen prep (category-aware)
+├── career-kb-builder/     ← Career knowledge base builder
 └── your-plugin/           ← Add new plugins here
 ```
 

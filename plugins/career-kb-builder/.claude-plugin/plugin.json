@@ -1,0 +1,13 @@
+{
+  "name": "career-kb-builder",
+  "description": "Conversationally extract career data and build a structured knowledge base for interview preparation — stories, achievements, metrics, and competency mapping",
+  "version": "1.0.0",
+  "author": {
+    "name": "Avengers-au",
+    "url": "https://github.com/Avengers-au"
+  },
+  "homepage": "https://github.com/Avengers-au/claude-skills",
+  "repository": "https://github.com/Avengers-au/claude-skills",
+  "license": "MIT",
+  "keywords": ["career", "interview", "stories", "STAR", "behavioral", "knowledge-base"]
+}
