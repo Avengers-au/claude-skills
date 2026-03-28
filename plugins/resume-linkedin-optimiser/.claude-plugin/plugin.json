@@ -1,0 +1,13 @@
+{
+  "name": "resume-linkedin-optimiser",
+  "description": "Generate ATS-optimised, story-seeded resumes and LinkedIn profile recommendations from career data and target job descriptions",
+  "version": "1.0.0",
+  "author": {
+    "name": "Avengers-au",
+    "url": "https://github.com/Avengers-au"
+  },
+  "homepage": "https://github.com/Avengers-au/claude-skills",
+  "repository": "https://github.com/Avengers-au/claude-skills",
+  "license": "MIT",
+  "keywords": ["resume", "linkedin", "ATS", "career", "job-search", "optimisation"]
+}

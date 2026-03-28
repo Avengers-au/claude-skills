@@ -351,6 +351,7 @@ git push origin main
 | `hm-screen-playbook` | `prep` | Generate company-specific hiring manager screening playbooks with CARL templates | 1.0.0 |
 | `tech-screen-playbook` | `prep` | Generate category-aware technical phone screen playbooks (10 job categories) | 1.0.0 |
 | `career-kb-builder` | `build` | Conversationally extract career data into a structured knowledge base | 1.0.0 |
+| `resume-linkedin-optimiser` | `optimise` | Generate ATS-optimised resumes and LinkedIn recommendations from career KB + JD | 1.0.0 |
 
 ---
 

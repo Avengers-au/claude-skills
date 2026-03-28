@@ -149,6 +149,32 @@ A conversational career coach that interviews you to extract, structure, and sto
 
 **Includes:** A bundled reference guide covering the extraction schema, probing techniques, quantification methods, and quality checklist.
 
+### `resume-linkedin-optimiser` — ATS-optimised resume and LinkedIn profile generation
+
+Generate a tailored, ATS-optimised resume and LinkedIn profile recommendations from your career knowledge base and a target job description. Every bullet is story-seeded — designed to invite interviewers to ask about your strongest achievements.
+
+**Install:**
+```
+/plugin install resume-linkedin-optimiser@avengers-claude-skills
+```
+
+**Use:**
+```
+/resume-linkedin-optimiser:optimise
+```
+
+**What it does:**
+- Analyses the target job description to extract keywords, required skills, and priority order
+- Matches your career KB stories to JD requirements and selects the strongest bullets
+- Applies action verb upgrades (eliminating "Responsible for", "Worked on", etc.)
+- Mirrors JD language naturally (1-3 keyword occurrences, not stuffing)
+- Generates a story-seeded resume where every bullet invites "Tell me more"
+- Produces LinkedIn headline (R-S-I-C formula for 2.4x more recruiter replies), About section, and skills recommendations
+- Runs ATS compliance checks (formatting, headings, keyword coverage)
+- Outputs local files — resume and LinkedIn recommendations
+
+**Includes:** A bundled reference guide covering ATS reality vs myths (2025 survey data), action verbs by competency, LinkedIn algorithm mechanics, and the story seeding technique.
+
 ---
 
 ## Structure
@@ -157,12 +183,13 @@ This repo is a Claude Code plugin marketplace.
 
 ```
 plugins/
-├── share-gist/            ← Secret gist creation
-├── recruiter-playbook/    ← Recruiter screen prep
-├── hm-screen-playbook/    ← Hiring manager screen prep
-├── tech-screen-playbook/  ← Technical phone screen prep (category-aware)
-├── career-kb-builder/     ← Career knowledge base builder
-└── your-plugin/           ← Add new plugins here
+├── share-gist/                 ← Secret gist creation
+├── recruiter-playbook/         ← Recruiter screen prep
+├── hm-screen-playbook/         ← Hiring manager screen prep
+├── tech-screen-playbook/       ← Technical phone screen prep (category-aware)
+├── career-kb-builder/          ← Career knowledge base builder
+├── resume-linkedin-optimiser/  ← Resume & LinkedIn optimisation
+└── your-plugin/                ← Add new plugins here
 ```
 
 To add a new plugin, create a directory under `plugins/` with a `.claude-plugin/plugin.json` manifest and a `skills/` directory, then add it to `.claude-plugin/marketplace.json`.

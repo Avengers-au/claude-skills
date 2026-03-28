@@ -31,6 +31,11 @@
       "name": "career-kb-builder",
       "source": "./plugins/career-kb-builder",
       "description": "Conversationally extract career data and build a structured knowledge base for interview preparation — stories, achievements, metrics, and competency mapping"
+    },
+    {
+      "name": "resume-linkedin-optimiser",
+      "source": "./plugins/resume-linkedin-optimiser",
+      "description": "Generate ATS-optimised, story-seeded resumes and LinkedIn profile recommendations from career data and target job descriptions"
     }
   ]
 }
