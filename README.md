@@ -96,6 +96,35 @@ Generate a personalised, company-specific hiring manager screening playbook. The
 
 **Requirements:** [`gh` CLI](https://cli.github.com) installed and authenticated (`gh auth login`)
 
+### `tech-screen-playbook` — Technical phone screen prep by job category
+
+Generate a personalised, category-aware technical phone screen playbook. Covers 10 job categories — Backend, Frontend, Security/AppSec, Data Engineering, ML/AI, Infra/DevOps/SRE, Mobile, Full-Stack, Cloud Architecture, and Embedded Systems — each with category-specific domains, question types, and level expectations. Researches the company's tech stack, interview format, and recent Glassdoor reports.
+
+**Install:**
+```
+/plugin install tech-screen-playbook@avengers-claude-skills
+```
+
+**Use:**
+```
+/tech-screen-playbook:prep Google Backend
+/tech-screen-playbook:prep CrowdStrike Security "Senior Security Engineer"
+/tech-screen-playbook:prep Stripe "Full-Stack" "Staff Engineer"
+```
+
+**What it does:**
+- Determines the interview format (CoderPad, HackerRank, take-home, pair programming) from Glassdoor
+- Researches the company's tech stack and engineering culture
+- Pulls the relevant category breakdown (e.g., Security: OWASP Top 10, STRIDE, crypto, cloud security, IR)
+- Lists the most likely questions based on Glassdoor reports and company focus areas
+- Provides level-specific expectations (mid vs senior vs staff)
+- Generates a practice plan with specific resources and time estimates
+- Outputs as a secret GitHub gist
+
+**Includes:** A bundled reference playbook with universal framework (rubrics from 100K+ interviews, meta-skills, time management) and deep breakdowns for all 10 job categories.
+
+**Requirements:** [`gh` CLI](https://cli.github.com) installed and authenticated (`gh auth login`)
+
 ---
 
 ## Structure
@@ -107,6 +136,7 @@ plugins/
 ├── share-gist/            ← Secret gist creation
 ├── recruiter-playbook/    ← Recruiter screen prep
 ├── hm-screen-playbook/    ← Hiring manager screen prep
+├── tech-screen-playbook/  ← Technical phone screen prep (category-aware)
 └── your-plugin/           ← Add new plugins here
 ```
 

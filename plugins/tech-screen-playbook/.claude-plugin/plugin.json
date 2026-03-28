@@ -1,0 +1,13 @@
+{
+  "name": "tech-screen-playbook",
+  "description": "Generate a personalised, category-aware technical phone screen playbook covering 10 job categories with live company and Glassdoor research",
+  "version": "1.0.0",
+  "author": {
+    "name": "Avengers-au",
+    "url": "https://github.com/Avengers-au"
+  },
+  "homepage": "https://github.com/Avengers-au/claude-skills",
+  "repository": "https://github.com/Avengers-au/claude-skills",
+  "license": "MIT",
+  "keywords": ["interview", "coding", "technical", "phone-screen", "security", "backend", "frontend"]
+}

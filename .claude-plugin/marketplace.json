@@ -21,6 +21,11 @@
       "name": "hm-screen-playbook",
       "source": "./plugins/hm-screen-playbook",
       "description": "Generate a personalised, company-specific hiring manager screening playbook with live research, CARL story templates, social engineering angles, and reverse interview questions"
+    },
+    {
+      "name": "tech-screen-playbook",
+      "source": "./plugins/tech-screen-playbook",
+      "description": "Generate a personalised, category-aware technical phone screen playbook covering 10 job categories with live company and Glassdoor research"
     }
   ]
 }
