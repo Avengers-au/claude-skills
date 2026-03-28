@@ -41,6 +41,11 @@
       "name": "star-story-generator",
       "source": "./plugins/star-story-generator",
       "description": "Transform career data into company-specific CARL stories mapped to competency frameworks (Amazon LPs, Meta dimensions, Google attributes) with scope calibration and coverage analysis"
+    },
+    {
+      "name": "behavioural-interview-playbook",
+      "source": "./plugins/behavioural-interview-playbook",
+      "description": "Generate a personalised behavioural interview playbook with live company research, story-to-competency mapping, cognitive bias strategy, and company-specific easy outs"
     }
   ]
 }

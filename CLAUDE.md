@@ -353,6 +353,7 @@ git push origin main
 | `career-kb-builder` | `build` | Conversationally extract career data into a structured knowledge base | 1.0.0 |
 | `resume-linkedin-optimiser` | `optimise` | Generate ATS-optimised resumes and LinkedIn recommendations from career KB + JD | 1.0.0 |
 | `star-story-generator` | `generate` | Transform career KB into company-specific CARL stories with coverage analysis | 1.0.0 |
+| `behavioural-interview-playbook` | `prep` | Behavioural round prep with live research, bias strategy, company-specific easy outs | 1.0.0 |
 
 ---
 

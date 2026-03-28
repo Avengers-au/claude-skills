@@ -1,0 +1,13 @@
+{
+  "name": "behavioural-interview-playbook",
+  "description": "Generate a personalised behavioural interview playbook with live company research, story-to-competency mapping, cognitive bias strategy, and company-specific easy outs",
+  "version": "1.0.0",
+  "author": {
+    "name": "Avengers-au",
+    "url": "https://github.com/Avengers-au"
+  },
+  "homepage": "https://github.com/Avengers-au/claude-skills",
+  "repository": "https://github.com/Avengers-au/claude-skills",
+  "license": "MIT",
+  "keywords": ["interview", "behavioral", "behavioural", "STAR", "CARL", "Amazon-LP", "Meta", "Google", "culture"]
+}

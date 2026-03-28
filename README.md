@@ -202,6 +202,35 @@ Transform your career knowledge base into company-specific, level-appropriate CA
 
 **Includes:** A bundled reference guide covering CARL framework, Decode-Select-Deliver methodology, 15 competency clusters, company competency mappings, scope ladder, story repurposing, and naturalness techniques.
 
+### `behavioural-interview-playbook` — Behavioural round prep with live company research
+
+Generate a personalised behavioural interview playbook that combines proven frameworks with LIVE research on the specific company's current process. Maps your CARL stories to the company's competency framework, applies cognitive bias strategy (anchoring, halo effect, peak-end rule), and produces company-specific easy outs calibrated to their culture.
+
+**Install:**
+```
+/plugin install behavioural-interview-playbook@avengers-claude-skills
+```
+
+**Use:**
+```
+/behavioural-interview-playbook:prep Amazon L5
+/behavioural-interview-playbook:prep Meta IC6 "Staff Security Engineer"
+/behavioural-interview-playbook:prep Anthropic
+```
+
+**What it does:**
+- Conducts LIVE research on the company's current behavioural framework (Glassdoor reports, careers page, recent candidate experiences) — never relies solely on the base guide
+- Maps your career KB stories to the company's specific competencies (Amazon 16 LPs, Meta 5 signal areas, Google Googleyness, Stripe values, Netflix culture traits, Anthropic safety alignment)
+- Generates a cognitive bias strategy: which story opens (anchoring), which closes (peak-end), narrative arc across the round
+- Produces company-calibrated easy outs (weakness, failure, conflict — tailored to what THIS company values)
+- Identifies coverage gaps and suggests how to fill them
+- Adapts expectations by role category (security, frontend, ML, infra, management)
+- Sources every claim with links to Glassdoor reports, blog posts, and careers pages
+
+**Includes:** A bundled reference playbook covering company frameworks with real candidate-reported questions, cognitive bias research (69% decide in 5 minutes — University of Toledo), naturalness techniques (Stanislavski method), role-category differences, and 2025-2026 trend adaptation.
+
+**Requirements:** [`gh` CLI](https://cli.github.com) installed and authenticated (`gh auth login`). Career KB or STAR stories file (from `/career-kb-builder` and `/star-story-generator`).
+
 ---
 
 ## Structure
@@ -216,8 +245,9 @@ plugins/
 ├── tech-screen-playbook/       ← Technical phone screen prep (category-aware)
 ├── career-kb-builder/          ← Career knowledge base builder
 ├── resume-linkedin-optimiser/  ← Resume & LinkedIn optimisation
-├── star-story-generator/       ← STAR/CARL story generation
-└── your-plugin/                ← Add new plugins here
+├── star-story-generator/               ← STAR/CARL story generation
+├── behavioural-interview-playbook/    ← Behavioural round prep (live research)
+└── your-plugin/                       ← Add new plugins here
 ```
 
 To add a new plugin, create a directory under `plugins/` with a `.claude-plugin/plugin.json` manifest and a `skills/` directory, then add it to `.claude-plugin/marketplace.json`.
