@@ -231,6 +231,36 @@ Generate a personalised behavioural interview playbook that combines proven fram
 
 **Requirements:** [`gh` CLI](https://cli.github.com) installed and authenticated (`gh auth login`). Career KB or STAR stories file (from `/career-kb-builder` and `/star-story-generator`).
 
+### `onsite-loop-playbook` — Onsite/loop technical preparation with live research
+
+Generate a personalised onsite/loop preparation playbook covering system design, coding rounds, domain-specific rounds, debrief prediction, energy management, and post-onsite tactics. Predicts your likely questions by triangulating company domain, role category, Glassdoor reports, engineering blog, and interviewer backgrounds.
+
+**Install:**
+```
+/plugin install onsite-loop-playbook@avengers-claude-skills
+```
+
+**Use:**
+```
+/onsite-loop-playbook:prep Amazon Backend L5
+/onsite-loop-playbook:prep Google "Senior Security Engineer"
+/onsite-loop-playbook:prep Stripe "Full-Stack" Staff
+```
+
+**What it does:**
+- Researches this company's exact loop structure (rounds, duration, format, who conducts)
+- Predicts system design questions from company domain + engineering blog + Glassdoor reports
+- Identifies most likely coding patterns from interviewing.io frequency data + company preferences
+- Includes domain-specific round prep (security threat modeling, ML system design, frontend components)
+- Predicts debrief mechanics (who has veto, what tips the balance, mixed-signal handling)
+- Provides energy management plan tailored to loop length (meals, breaks, stamina)
+- Includes post-onsite tactics (thank-you emails, team matching, negotiation, cooldown periods)
+- Outputs as a secret GitHub gist
+
+**Includes:** A bundled reference playbook covering 10 company loop structures, system design framework with 15 most common questions, onsite coding patterns (2025 frequency data from 100K+ interviews), debrief mechanics, and multi-round survival meta-game.
+
+**Requirements:** [`gh` CLI](https://cli.github.com) installed and authenticated (`gh auth login`)
+
 ---
 
 ## Structure
@@ -247,6 +277,7 @@ plugins/
 ├── resume-linkedin-optimiser/  ← Resume & LinkedIn optimisation
 ├── star-story-generator/               ← STAR/CARL story generation
 ├── behavioural-interview-playbook/    ← Behavioural round prep (live research)
+├── onsite-loop-playbook/             ← Onsite/loop technical prep
 └── your-plugin/                       ← Add new plugins here
 ```
 

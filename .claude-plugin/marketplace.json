@@ -46,6 +46,11 @@
       "name": "behavioural-interview-playbook",
       "source": "./plugins/behavioural-interview-playbook",
       "description": "Generate a personalised behavioural interview playbook with live company research, story-to-competency mapping, cognitive bias strategy, and company-specific easy outs"
+    },
+    {
+      "name": "onsite-loop-playbook",
+      "source": "./plugins/onsite-loop-playbook",
+      "description": "Generate a personalised onsite/loop preparation playbook with system design, coding, domain-specific rounds, debrief prediction, energy management, and post-onsite tactics"
     }
   ]
 }

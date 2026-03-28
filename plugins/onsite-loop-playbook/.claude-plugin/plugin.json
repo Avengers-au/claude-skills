@@ -1,0 +1,13 @@
+{
+  "name": "onsite-loop-playbook",
+  "description": "Generate a personalised onsite/loop preparation playbook with system design, coding, domain-specific rounds, debrief prediction, energy management, and post-onsite tactics",
+  "version": "1.0.0",
+  "author": {
+    "name": "Avengers-au",
+    "url": "https://github.com/Avengers-au"
+  },
+  "homepage": "https://github.com/Avengers-au/claude-skills",
+  "repository": "https://github.com/Avengers-au/claude-skills",
+  "license": "MIT",
+  "keywords": ["interview", "onsite", "loop", "system-design", "coding", "FAANG", "debrief"]
+}

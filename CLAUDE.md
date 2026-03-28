@@ -354,6 +354,7 @@ git push origin main
 | `resume-linkedin-optimiser` | `optimise` | Generate ATS-optimised resumes and LinkedIn recommendations from career KB + JD | 1.0.0 |
 | `star-story-generator` | `generate` | Transform career KB into company-specific CARL stories with coverage analysis | 1.0.0 |
 | `behavioural-interview-playbook` | `prep` | Behavioural round prep with live research, bias strategy, company-specific easy outs | 1.0.0 |
+| `onsite-loop-playbook` | `prep` | Onsite/loop technical prep with system design, coding, debrief prediction | 1.0.0 |
 
 ---
 
