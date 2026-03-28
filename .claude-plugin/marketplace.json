@@ -16,6 +16,11 @@
       "name": "recruiter-playbook",
       "source": "./plugins/recruiter-playbook",
       "description": "Generate a personalised, company-specific recruiter screening playbook with live research, tailored scripts, and social engineering angles"
+    },
+    {
+      "name": "hm-screen-playbook",
+      "source": "./plugins/hm-screen-playbook",
+      "description": "Generate a personalised, company-specific hiring manager screening playbook with live research, CARL story templates, social engineering angles, and reverse interview questions"
     }
   ]
 }

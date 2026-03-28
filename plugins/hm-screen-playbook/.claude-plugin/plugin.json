@@ -1,0 +1,13 @@
+{
+  "name": "hm-screen-playbook",
+  "description": "Generate a personalised, company-specific hiring manager screening playbook with live research, CARL story templates, social engineering angles, and reverse interview questions",
+  "version": "1.0.0",
+  "author": {
+    "name": "Avengers-au",
+    "url": "https://github.com/Avengers-au"
+  },
+  "homepage": "https://github.com/Avengers-au/claude-skills",
+  "repository": "https://github.com/Avengers-au/claude-skills",
+  "license": "MIT",
+  "keywords": ["interview", "hiring-manager", "career", "job-search", "playbook", "behavioral"]
+}

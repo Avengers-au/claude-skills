@@ -67,6 +67,35 @@ Generate a personalised, company-specific recruiter screening playbook. Conducts
 
 **Requirements:** [`gh` CLI](https://cli.github.com) installed and authenticated (`gh auth login`)
 
+### `hm-screen-playbook` — Hiring manager screen prep with live research
+
+Generate a personalised, company-specific hiring manager screening playbook. The HM screen is the 45-60 minute gate after the recruiter call — evaluating technical depth, team fit, career goals, leadership, and judgment. This plugin researches the company and (optionally) the hiring manager, then produces a tactical briefing with CARL story templates, reverse interview questions, and social engineering angles.
+
+**Install:**
+```
+/plugin install hm-screen-playbook@avengers-claude-skills
+```
+
+**Use:**
+```
+/hm-screen-playbook:prep Google
+/hm-screen-playbook:prep Anthropic "Dr. Bob Jones"
+/hm-screen-playbook:prep Stripe "Jane Smith" "Senior Backend Engineer"
+```
+
+**What it does:**
+- Researches the company's values, recent news, engineering blog, and Glassdoor HM interview reviews
+- If the HM name is provided, finds their conference talks, blog posts, open-source work, and management philosophy
+- Generates company-tailored CARL (Context-Actions-Results-Learnings) story templates for the 5 most likely questions
+- Produces scripts for "Where do you see yourself?", "Why are you leaving?", "What's your weakness?"
+- Creates 5 tailored reverse interview questions referencing specific company details
+- Maps the 8 HM evaluation dimensions to this company's priorities
+- Outputs as a secret GitHub gist you can pull up on your phone before the call
+
+**Includes:** A bundled reference playbook covering evaluation rubrics, the HM's hidden agenda, psychological biases to leverage, and company-category adaptation for FAANG, startups, enterprise, mission-driven, defence, and AI/ML companies.
+
+**Requirements:** [`gh` CLI](https://cli.github.com) installed and authenticated (`gh auth login`)
+
 ---
 
 ## Structure
@@ -77,6 +106,7 @@ This repo is a Claude Code plugin marketplace.
 plugins/
 ├── share-gist/            ← Secret gist creation
 ├── recruiter-playbook/    ← Recruiter screen prep
+├── hm-screen-playbook/    ← Hiring manager screen prep
 └── your-plugin/           ← Add new plugins here
 ```
 
