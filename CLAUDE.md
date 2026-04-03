@@ -356,6 +356,7 @@ git push origin main
 | `behavioural-interview-playbook` | `prep` | Behavioural round prep with live research, bias strategy, company-specific easy outs | 1.0.0 |
 | `onsite-loop-playbook` | `prep` | Onsite/loop technical prep with system design, coding, debrief prediction | 1.0.0 |
 | `salary-negotiation-playbook` | `negotiate` | Salary negotiation with live market research, salary-seeker, AU tax analysis | 1.0.0 |
+| `market-gap-validation` | `validate` | Validate startup ideas with 6-gate checklist, live web research, kill-fast discipline | 1.0.0 |
 
 ---
 

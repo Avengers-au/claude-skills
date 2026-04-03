@@ -261,6 +261,33 @@ Generate a personalised onsite/loop preparation playbook covering system design,
 
 **Requirements:** [`gh` CLI](https://cli.github.com) installed and authenticated (`gh auth login`)
 
+### `market-gap-validation` — Kill bad startup ideas fast
+
+Validate a startup or business idea against a rigorous 6-gate checklist using live web research. Walks through problem existence, buyer identification, competitive landscape mapping, gap analysis, buildability, and revenue modelling — with PASS/FAIL/PARTIAL verdicts at each gate. Enforces a "kill fast" discipline: if early gates fail, the idea is killed immediately and documented.
+
+**Install:**
+```
+/plugin install market-gap-validation@avengers-claude-skills
+```
+
+**Use:**
+```
+/market-gap-validation:validate Farm compliance record-keeping for Australian broadacre grain growers
+/market-gap-validation:validate NDIS plan management software Australia
+```
+
+**What it does:**
+- Conducts live web research at every gate — government reports, industry data, forum complaints, competitor analysis
+- Gate 3 (competitive landscape) runs 8+ targeted searches including app stores, review platforms, and startup databases
+- Builds a complete competitor table with pricing, features, funding, and the critical question: "does it do our specific thing?"
+- Generates a structured validation report with an overall PROCEED / KILL / PROCEED WITH CAUTION verdict
+- Checks against 6 red flags that should kill an idea immediately
+- Publishes the report as a secret GitHub gist for easy sharing with co-founders or advisors
+
+**Includes:** A bundled reference checklist with the complete 6-gate framework, process workflow, and red flags.
+
+**Requirements:** [`gh` CLI](https://cli.github.com) installed and authenticated (`gh auth login`)
+
 ---
 
 ## Structure
@@ -279,6 +306,7 @@ plugins/
 ├── behavioural-interview-playbook/    ← Behavioural round prep (live research)
 ├── onsite-loop-playbook/             ← Onsite/loop technical prep
 ├── salary-negotiation-playbook/      ← Salary & comp negotiation
+├── market-gap-validation/            ← Startup idea validation (6-gate checklist)
 └── your-plugin/                       ← Add new plugins here
 ```
 

@@ -56,6 +56,11 @@
       "name": "salary-negotiation-playbook",
       "source": "./plugins/salary-negotiation-playbook",
       "description": "Generate a personalised salary negotiation strategy with live market research from Levels.fyi, Glassdoor, Hays, salary-seeker (SEEK.com.au), company-specific patterns, and AU tax analysis"
+    },
+    {
+      "name": "market-gap-validation",
+      "source": "./plugins/market-gap-validation",
+      "description": "Validate startup ideas with a rigorous 6-gate checklist — problem existence, buyer identification, competitive landscape, gap analysis, buildability, and revenue model — with live web research and kill-fast discipline"
     }
   ]
 }
